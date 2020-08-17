@@ -55,7 +55,6 @@ export const counter = {
   actions: {
     [SET_COUNTER]: ({ commit, dispatch }) => {
       dispatch(`${COUNTER2_M}${SET_COUNTER}`, null, { root: true });
-
       commit(SET_COUNTER);
     }
   },
